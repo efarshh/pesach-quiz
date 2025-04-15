@@ -39,11 +39,11 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
   } else if (score >= 9) {
     result = 'Smart school boy';
   } else if (score >= 6) {
-    result = 'Знаешь столько, сколько знает обычный учитель 94-ого лицея';
+    result = 'Знаешь столько, сколько знает обычный учитель 94-го лицея';
   } else if (score >= 3) {
     result = 'Знаешь столько, сколько знаем только мы с тобой)';
   } else {
-    result = 'Знаешь столько, сколько знает обычный ученик 94-того лицея';
+    result = 'Знаешь столько, сколько знает обычный ученик 94-го лицея';
   }
 
   document.getElementById('result').innerText = result;
