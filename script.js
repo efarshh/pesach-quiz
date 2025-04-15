@@ -15,7 +15,7 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
   const q12 = document.querySelector('input[name="q12"]:checked');
 
   if (!q1 || !q2 || !q3 || !q4 || !q5 || !q6 || !q7 || !q8 || !q9 || !q10 || !q11 || !q12) {
-    alert('Smart school boy, на все вопросы ответь.');
+    alert('Smart school boy, на все вопросы ответь');
     return;
   }
 
